@@ -1,5 +1,9 @@
 import { uuid } from 'uuidv4';
 
+/**
+ * Criar um modelo de transação que contenha uma
+ * ID, Titulo, Valor e Tipo
+ */
 class Transaction {
   id: string;
 
